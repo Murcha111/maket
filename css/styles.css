@@ -1,0 +1,106 @@
+body {
+  background-color:  #F9EAE1;
+  position: absolute;
+}
+.help {
+  position: absolute;
+  width: 1410px;
+  height: 698px;
+  left: -10px;
+  top: -27px;
+  
+}
+
+.first_img{
+  height: 698px;
+width: 1427.0985107421875px;
+left: 1414.0654907226562px;
+top: -27px;
+border-radius: 0px;
+
+}
+.about {
+
+width: 1400px;
+height: 849px;
+left: 0px;
+top: 780px;
+}
+
+.about h2 {
+  position: absolute;
+width: 136px;
+height: 50px;
+left: 632px;
+top: 780px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  /* identical to box height, or 125% */
+  
+  text-transform: uppercase;
+  
+  color: #533738;
+  
+}
+
+.about img {
+  position: absolute;
+width: 444.54px;
+height: 465px;
+left: 182px;
+top: 870px;
+}
+
+.about p {
+  position: absolute;
+  width: 528px;
+  height: 330px;
+  left: 690px;
+  top: 870px;
+  
+  /* Основной текст */
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+  
+  
+  color: #533738;
+  
+}
+.rectangle137 {
+position: relative;
+width: 1400px;
+height: 273px;
+left: 0px;
+top: 1356px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: #8D7370;
+}
+
+.rectangle137 li{
+  
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+
+li{
+
+  text-align:center;
+  list-style-type: none; /* Убираем маркеры */
+}
