@@ -38,18 +38,20 @@ body {
   border-radius: 0px;
 }
 .about {
-  width: 1400px;
-  height: 849px;
-  left: 0px;
-  top: 780px;
-}
+  display: flex;
+  width: 1410px;
+  justify-content: center;
 
-.about h2 {
+}
+.about img {
+  margin-right: 65px;
+}
+h2 {
   width: 136px;
   height: 50px;
-  left: 632px;
-  top: 780px;
-
+  margin: 0 auto;
+  padding-top: 110px;
+  padding-bottom: 40px;
   /* /Заголовок2 */
 
   font-family: "Montserrat";
@@ -65,9 +67,7 @@ body {
 }
 .about p {
   width: 528px;
-  height: 330px;
-  left: 690px;
-  top: 870px;
+  margin-top: auto;
 
   /* Основной текст */
 
@@ -88,45 +88,43 @@ body {
   top: 870px;
 }
 
-.rectangle137 {
-  position: relative;
-  width: 1400px;
-  height: 273px;
-  left: 0px;
-  top: 1356px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.privelegies{
   background-color: #8d7370;
 }
-
-.rectangle137 li:first-child {
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 37px;
-  color: #ffffff;
-  text-transform: uppercase;
+.rectangle137 {
+  width: 1400px;
+  display: flex;
+  justify-content: space-around;
+ 
+  /* background-color: #8d7370; */
 }
-.rectangle137 li:last-child {
-  width: 132px;
-  height: 37px;
-  left: 1088px;
-  top: 1511px;
-
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 37px;
-  /* identical to box height */
-
+.rectangle137 li {
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: 400;
+  padding-top: 85px;
   text-transform: uppercase;
 
   color: #ffffff;
 }
 
+.grands {
+  padding-bottom: 80px;
+  padding-right: 70px;
+  display: flex;
+  justify-content: space-around;
+  /* background-color: #8d7370; */
+}
+
+.grands li{
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: 400;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
 li {
   text-align: center;
   list-style-type: none; /* Убираем маркеры */
@@ -306,12 +304,11 @@ li {
 
 .feedback button {
   height: 72.24056243896484px;
-width: 311.347412109375px;
-left: 0px;
-top: 0px;
-border-radius: 0px;
-background: #CC8B86;
-
+  width: 311.347412109375px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  background: #cc8b86;
 
   font-family: "Montserrat";
   font-style: normal;
@@ -321,5 +318,5 @@ background: #CC8B86;
   /* identical to box height */
 }
 .feedback input {
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid #ffffff;
 }
