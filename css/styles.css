@@ -16,32 +16,33 @@
       url("../fonts/montserrat-v25-latin-regular.svg#Montserrat") format("svg"); /* Legacy iOS */
 }
 
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1410px;
+  margin: 0 auto;
+}
 body {
+  margin: 0 auto;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   background-color: #f9eae1;
-  position: absolute;
 }
 .help {
-  width: 1410px;
+  width: 1427px;
   height: 698px;
   left: -10px;
   top: -27px;
 }
 
 .first_img {
-  height: 698px;
-  width: 1427.0985107421875px;
-  left: 1414.0654907226562px;
-  top: -27px;
-  border-radius: 0px;
+  width: 1410px;
 }
 .about {
   display: flex;
-  width: 1410px;
+  width: 1427px;
   justify-content: center;
-
 }
 .about img {
   margin-right: 65px;
@@ -52,32 +53,22 @@ h2 {
   margin: 0 auto;
   padding-top: 110px;
   padding-bottom: 40px;
-  /* /Заголовок2 */
-
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 50px;
-  /* identical to box height, or 125% */
-
   text-transform: uppercase;
-
   color: #533738;
 }
 .about p {
   width: 528px;
   margin-top: auto;
-
-  /* Основной текст */
-
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
-  /* or 167% */
-
   color: #533738;
 }
 
@@ -88,15 +79,15 @@ h2 {
   top: 870px;
 }
 
-.privelegies{
+.privelegies {
   background-color: #8d7370;
+  margin-left: 0;
+  margin-right: 0;
 }
 .rectangle137 {
   width: 1400px;
   display: flex;
   justify-content: space-around;
- 
-  /* background-color: #8d7370; */
 }
 .rectangle137 li {
   font-family: Montserrat;
@@ -104,138 +95,165 @@ h2 {
   font-weight: 400;
   padding-top: 85px;
   text-transform: uppercase;
-
   color: #ffffff;
 }
 
 .grands {
   padding-bottom: 80px;
-  padding-right: 70px;
+  padding-right: 50px;
   display: flex;
   justify-content: space-around;
-  /* background-color: #8d7370; */
 }
 
-.grands li{
+.grands li {
   font-family: Montserrat;
   font-size: 50px;
   font-weight: 400;
-
   text-transform: uppercase;
-
   color: #ffffff;
 }
+
 li {
   text-align: center;
   list-style-type: none; /* Убираем маркеры */
 }
 
-.ourWorks p {
-  width: 332px;
-  height: 50px;
-  left: 100px;
-  top: 1694px;
-
-  /* /Заголовок2 */
-
+.textOurWorks {
+  padding: 0px 100px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 50px;
-  /* identical to box height, or 125% */
-
   text-transform: uppercase;
-
   color: #533738;
 }
 
-.ourWorks p:last-child {
-  width: 224px;
-  height: 37px;
-  left: 553px;
-  top: 2756px;
+.firstItemImageGroup {
+  padding: 0 100px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.itemImageGroup {
+  padding: 30px 100px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.lookMore p {
+  width: 295px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 65px;
+}
+.lookMore img {
+  width: 60px;
+}
+.containerImg {
+  position: relative;
+}
 
+.containerImg:after {
+  content: "";
+  background: rgba(100, 72, 69, 0.8);
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.littleImg {
+  width: 488px;
+  height: 451px;
+}
+.ourWorks p:last-child {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
   line-height: 37px;
-  /* identical to box height */
-
   color: #533738;
 }
-.team p:first-child {
-  width: 224px;
-  height: 50px;
-  left: 588px;
-  top: 2908px;
 
-  /* /Заголовок2 */
-
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 50px;
-  /* identical to box height, or 125% */
-
-  text-transform: uppercase;
-
-  color: #533738;
+.teamBlock {
+  background: #e2c4ba;
+  width: 1400px;
+  height: 1000px;
 }
+.team {
+  display: flex;
+  justify-content: center;
+}
+
 .team p {
-  font-family: Montserrat;
-  font-size: 18px;
+  margin: 0 auto;
+  width: 320px;
+  height: 180px;
+  font-family: "Montserrat";
+  font-style: normal;
   font-weight: 400;
+  font-size: 18px;
   line-height: 30px;
-  letter-spacing: 0em;
-  text-align: left;
+  color: #8D7370;;
 }
-.team h2 {
-  width: 420px;
-  height: 50px;
-  left: 513px;
-  top: 3476px;
-
-  /* /Заголовок2 */
-
+.teamBlockTitle {
+  padding-top: 50px;
+  text-align: center;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 50px;
-  /* identical to box height, or 125% */
-
   text-transform: uppercase;
-
   color: #533738;
 }
+.team img {
+  width: 320px;
+  height: 253px;
+}
+.blondyBlock {
+  margin: 0 38px 0;
+}
+
 .about_work {
+ 
+  margin: 0 auto;
+  display: flex;
+  width: 1200px;
   font-family: Montserrat;
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0em;
-  text-align: center;
+}
+
+.roundNumber{
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #ffffff;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #8d7370;
+}
+.about_work p{
+  padding: 0 20px;
 }
 .reviews h2 {
   width: 191px;
   height: 50px;
   left: 615px;
   top: 3921px;
-
-  /* /Заголовок2 */
-
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 50px;
-  /* identical to box height, or 125% */
-
   text-transform: uppercase;
-
   color: #533738;
 }
 .reviews p {
@@ -243,16 +261,11 @@ li {
   height: 335px;
   left: 283px;
   top: 4102px;
-
-  /* Основной текст */
-
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
-  /* or 167% */
-
   color: #533738;
 }
 .feedback {
@@ -260,7 +273,6 @@ li {
   height: 624px;
   left: 1px;
   top: 4644px;
-
   background: #8d7370;
 }
 .feedback p:first-child {
@@ -268,18 +280,12 @@ li {
   height: 50px;
   left: 182px;
   top: 4694px;
-
-  /* /Заголовок2 */
-
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 50px;
-  /* identical to box height, or 125% */
-
   text-transform: uppercase;
-
   color: #ffffff;
 }
 .feedback p {
@@ -287,18 +293,12 @@ li {
   height: 60px;
   left: 183px;
   top: 4768px;
-
-  /* Основной текст */
-
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
-  /* or 167% */
-
   color: #ffffff;
-
   opacity: 0.6;
 }
 
@@ -309,13 +309,11 @@ li {
   top: 0px;
   border-radius: 0px;
   background: #cc8b86;
-
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  /* identical to box height */
 }
 .feedback input {
   border-bottom: 1px solid #ffffff;
