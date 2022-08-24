@@ -85,7 +85,7 @@ h2 {
   margin-right: 0;
 }
 .rectangle137 {
-  width: 1400px;
+  /* width: 1400px; */
   display: flex;
   justify-content: space-around;
 }
@@ -149,9 +149,36 @@ li {
   width: 60px;
 }
 .containerImg {
+  background-image: url('../public/images/1_3.jpg');
   position: relative;
+  width: 488px;
+  height: 451px;
 }
-
+.containerImg span {
+  display: block;
+  width: 420px;
+  height: 150px;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #FFFFFF;
+padding: 0 35px 0;
+}
+.containerImg p {
+  margin: 0 auto;
+  width: 250px;
+  height: 110px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+   padding-top: 85px;
+  color: #ffffff;
+}
 .containerImg:after {
   content: "";
   background: rgba(100, 72, 69, 0.8);
@@ -196,7 +223,7 @@ li {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
-  color: #8D7370;;
+  color: #8d7370;
 }
 .teamBlockTitle {
   padding-top: 50px;
@@ -218,7 +245,6 @@ li {
 }
 
 .about_work {
- 
   margin: 0 auto;
   display: flex;
   width: 1200px;
@@ -229,7 +255,7 @@ li {
   letter-spacing: 0em;
 }
 
-.roundNumber{
+.roundNumber {
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -240,14 +266,12 @@ li {
   border-radius: 50%;
   background-color: #8d7370;
 }
-.about_work p{
+.about_work p {
   padding: 0 20px;
 }
-.reviews h2 {
+.rewiewsBlock h2 {
   width: 191px;
-  height: 50px;
-  left: 615px;
-  top: 3921px;
+  padding-bottom: 0;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -257,10 +281,6 @@ li {
   color: #533738;
 }
 .reviews p {
-  width: 407px;
-  height: 335px;
-  left: 283px;
-  top: 4102px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -268,18 +288,36 @@ li {
   line-height: 30px;
   color: #533738;
 }
+.reviews div {
+  width: 440px;
+  align-self: center;
+}
+.reviews {
+  justify-content: space-between;
+  width: 1035px;
+  display: flex;
+  margin: 65px 160px;
+}
+.rewiewsBlock div:last-child img {
+  margin-bottom: 20px;
+}
 .feedback {
+  display: flex;
+  justify-content: space-around;
   width: 1400px;
-  height: 624px;
-  left: 1px;
-  top: 4644px;
+  height: 625px;
   background: #8d7370;
 }
+.feedback div {
+  width: 590px;
+  height: 624px;
+  padding-right: 100px;
+}
+.feedback div:first-child {
+  width: 510px;
+  padding: 50px 50px 180px 180px;
+}
 .feedback p:first-child {
-  width: 474px;
-  height: 50px;
-  left: 182px;
-  top: 4694px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -289,10 +327,6 @@ li {
   color: #ffffff;
 }
 .feedback p {
-  width: 507px;
-  height: 60px;
-  left: 183px;
-  top: 4768px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -303,10 +337,6 @@ li {
 }
 
 .feedback button {
-  height: 72.24056243896484px;
-  width: 311.347412109375px;
-  left: 0px;
-  top: 0px;
   border-radius: 0px;
   background: #cc8b86;
   font-family: "Montserrat";
@@ -314,7 +344,12 @@ li {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
+  width: 311.35px;
+  height: 72.24px;
+  border: none;
 }
 .feedback input {
-  border-bottom: 1px solid #ffffff;
+  border: none;
+  background-color: #8d7370;
+  color: #ffffff;
 }
