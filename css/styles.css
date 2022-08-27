@@ -31,18 +31,61 @@ body {
   font-weight: 400;
   background-color: #f9eae1;
 }
-a{
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #533738;
+}
+.main {
+  margin: 90px 0 0 185px;
+}
+.main__title {
+  margin: 0;
+  display: block;
+  width: 535px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 62px;
+  color: #533738;
+}
+.main__description {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #533738;
+}
+.tel {
+  margin-right: 100px;
+}
+a {
+  text-decoration: none;
   color: #533738;
 }
 a:hover {
-  color: #332c2c; /* Цвет ссылки */ 
- } 
+  color: #332c2c; /* Цвет ссылки */
+}
 .help {
   width: 1427px;
   height: 688px;
   background-image: url("../public/images/1_1.jpg");
 }
 .help button {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #533738;
   border: none;
   background: #cc8b86;
   height: 72.24056243896484px;
@@ -189,14 +232,14 @@ li {
   padding-top: 85px;
   color: #ffffff;
 }
-.opacity{
+.opacity {
   position: relative;
 }
-.image__img{
+.image__img {
   display: block;
   width: 100%;
 }
-.image__overlay{
+.image__overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -208,17 +251,17 @@ li {
   cursor: pointer;
   transition: all 1s ease;
 }
-.image__title{
+.image__title {
   width: 250px;
   padding: 86px 109px 0;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
   line-height: 37px;
   text-align: center;
 }
-.image__description{
+.image__description {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -227,7 +270,7 @@ li {
   color: #ffffff;
   padding: 18px 35px 0;
 }
-.image__overlay:hover{
+.image__overlay:hover {
   opacity: 1;
 }
 
