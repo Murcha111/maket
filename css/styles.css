@@ -32,8 +32,9 @@ body {
   background-color: #f9eae1;
 }
 .menu {
+  padding: 20px 100px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   font-family: "Montserrat";
   font-style: normal;
@@ -41,6 +42,9 @@ body {
   font-size: 18px;
   line-height: 30px;
   color: #533738;
+}
+.menu__logo img {
+  display: block;
 }
 .main {
   margin: 90px 0 0 185px;
@@ -57,6 +61,8 @@ body {
   color: #533738;
 }
 .main__description {
+  margin: 50px 0 50px;
+  width: 500px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
@@ -78,6 +84,7 @@ a:hover {
   width: 1427px;
   height: 688px;
   background-image: url("../public/images/1_1.jpg");
+  background-size: 100% 100%;
 }
 .help button {
   font-family: "Montserrat";
